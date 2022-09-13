@@ -13,7 +13,8 @@ class Library:
             print(
                 f"{bookname} el libro no esta disponible.\n")
         else:
-            track.append({name: bookname})
+            pista =[]
+            pista.append({name: bookname})
             print("libro prestado, por favor devuelvelo, cuando no lo vas a usar.\n")
             self.books.remove(bookname)
 
@@ -30,8 +31,8 @@ class Usuario():
     def devolver(self):
         name = input("ingresa el nombre: ")
         self.book = input("ingresa el nombre del libro que quiere devolver:  ")
-        track = []
-        if {name: self.book} in track:
-            track.remove({name: self.book})
+        pista = []
+        if {name: self.book} in pista:
+            pista.remove({name: self.book})
         return self.book
 
