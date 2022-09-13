@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+
+class libreria {
+books: str
+disponibilidad()
+prestar()
+devuelto()
+}
+
+class usuario {
+solicitar()
+devolver()
+}
+
+libreria --* usuario
+@enduml

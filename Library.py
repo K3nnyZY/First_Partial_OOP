@@ -1,5 +1,5 @@
 class Library:
-    def __init__(self, books):
+    def __init__(self, books: str):
         self.books = books
 
     def disponibilidad(self):
