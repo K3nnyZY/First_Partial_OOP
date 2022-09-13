@@ -4,7 +4,7 @@ class Library:
 
     def disponibilidad(self):
         print(f"\n{len(self.books)} los libros disponibles son: ")
-        for book in self.books:
+        for book in books:
             print(" - " + book)
         print("\n")
 
