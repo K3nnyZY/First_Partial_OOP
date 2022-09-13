@@ -3,7 +3,7 @@ class Library:
         self.books = books
 
     def disponibilidad(self):
-        print(f"\n{len(self.books)} los libros disponibles son: ")
+        print(f"\n{len(books)} los libros disponibles son: ")
         for book in books:
             print(" - " + book)
         print("\n")
