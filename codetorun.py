@@ -1,7 +1,7 @@
 from Library import Library, Usuario
 
 libreria = Library(
-        ["economia", "python", "java", "matematicas1", "calculo", "fisica1, fisica2, dinamica, estatica"])
+        ["economia", "python", "java", "matematicas1", "calculo", "fisica1", "fisica2", "dinamica", "estatica"])
 usuario = Usuario()
 
 print("BIENVENIDO\n")
